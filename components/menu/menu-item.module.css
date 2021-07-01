@@ -1,0 +1,10 @@
+.card {
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: 10px 10px 8px #888;
+}
+
+.text {
+    text-align: center;
+}

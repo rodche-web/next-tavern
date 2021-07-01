@@ -1,0 +1,18 @@
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/burger-fries.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+.text {
+    border: 1px solid white;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 75%;
+    top: 50%;
+}

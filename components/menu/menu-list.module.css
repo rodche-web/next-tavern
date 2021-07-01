@@ -1,0 +1,7 @@
+.menu_list {
+    display: flex;
+    margin: 0 auto;
+    width: 70vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,18 @@
+.header {
+    height: 100px;
+    background-color: black;
+    color: white;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    margin-right: 20px;
+}
