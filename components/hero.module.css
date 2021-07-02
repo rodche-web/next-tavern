@@ -1,9 +1,25 @@
+@keyframes bgchange {
+    from {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/burger-fries.jpeg');
+    }
+    50% {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/ribeye.jpg');
+    }
+    to {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/resto-indoor.jpg');
+    }
+}
+
 .hero {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/burger-fries.jpeg');
     background-position: center;
     background-size: cover;
     height: 80vh;
     position: relative;
+    animation-name: bgchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
 }
 
 .text {
